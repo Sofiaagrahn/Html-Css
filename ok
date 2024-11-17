@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS-uppgift</title>
+        <link>rel="stylesheet" href="style.css"</link> 
+        
+        <!--Länkar till CSS-filen-->
+    </head>
+    <body>
+<h1>Rubrik 1</h1>
+<h2>Rubrik 2</h2>
+<p>Detta är ett stycke med standardtext.</p>
+
+<table id="tabell1">
+<tr>
+<td>Tabell 2, cell 1</td>
+<td>Tabell 2, cell 2</td>
+</tr>
+</table>
+
+<p class="green-text"> Denna text är grön.</p>
+
+<a href="#">Detta är en länk</a>
+</body>
+</html> 
+
+
+
+
+
+
+
+
+
+<!--CSS-fil-->
+
+/* Typsnitt för rubriker */
+h1, h2, h3, h4, h5, h6 { 
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+/* Typsnitt för övrig text */
+body, p {
+    font-family: Candara, Verdana, sans-serif;
+}   
+
+/* Tabell 1 stil */
+#tabell1 {
+   background-color: #ffcccc;
+}
+
+/* Tabell 2 stil */
+#tabell2 {
+    background-color: "ffcc99";
+}
+
+/* Grön text längst ner */
+.green-text {
+    color: #009900;
+    font-weight: bold;
+}
+
+/* Länkens hover-effekt */
+a:hover {
+    color: white;
+    background-color: #009900;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
